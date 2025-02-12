@@ -4,3 +4,11 @@ Copy the command from AWS EC2-> instances -> connect -> ssh client ->
 "ssh -i "ssh_pem.pem" ubuntu@ec2-13-126-49-64.ap-south-1.compute.amazonaws.com" 
 
 now install aws cli
+command{ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"  }
+apt install zip
+unzip awscliv2.zip
+meanwhile -> create a user in IAM and keep in hand the accesskey and secret access key
+~ now paste the access and secret access key in the console
+~ region = 'ap-south-1'
+~output format = 'json'
+thats it done

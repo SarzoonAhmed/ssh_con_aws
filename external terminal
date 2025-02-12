@@ -1,0 +1,6 @@
+https://youtu.be/sQQjMnEkGjs?si=xQHgUB05-sgJlu9u
+follow this video for setting up aws connection in VS Code terminal
+Copy the command from AWS EC2-> instances -> connect -> ssh client -> 
+"ssh -i "ssh_pem.pem" ubuntu@ec2-13-126-49-64.ap-south-1.compute.amazonaws.com" 
+
+now install aws cli
